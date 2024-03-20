@@ -9,7 +9,7 @@ exports.updateCourseProgress = async (req, res) => {
   const userId = req.user.id
 
   try {
-    // Check if the subsection is valid
+     // Check if the subsection is valid
     const subsection = await SubSection.findById(subsectionId)
     if (!subsection) {
       return res.status(404).json({ error: "Invalid subsection" })
