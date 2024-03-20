@@ -3,7 +3,7 @@ module.exports = {
   endOfLine: "lf",
   semi: false,
   singleQuote: false,
-  tabWidth: 2,
+  tabWidth:  2,
   trailingComma: "es5",
   bracketSpacing: true,
   importOrder: [
